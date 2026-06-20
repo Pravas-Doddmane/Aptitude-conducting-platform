@@ -216,7 +216,7 @@ For the smoothest setup:
 
 - The backend runs on port `8081` by default.
 - The Python proctoring service runs on port `8000` by default.
-- The user frontend typically runs on `5173`.
+- The user frontend typically runs on `3000`.
 - The admin frontend typically runs on `5173` as well, so run them in separate terminals and change the port if needed.
 - Open the backend project in IntelliJ IDEA for the easiest Java setup.
 
