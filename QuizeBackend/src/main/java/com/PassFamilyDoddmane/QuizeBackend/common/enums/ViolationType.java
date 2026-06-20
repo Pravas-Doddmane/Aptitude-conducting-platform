@@ -1,0 +1,16 @@
+package com.PassFamilyDoddmane.QuizeBackend.common.enums;
+
+public enum ViolationType {
+    FACE_NOT_VISIBLE,
+    MULTIPLE_FACES,
+    LOOKING_AWAY,
+    PHONE_DETECTED,
+    AUDIO_ACTIVITY,
+    SUSPICIOUS_ACTIVITY,
+    TAB_SWITCH,
+    FULLSCREEN_EXIT,
+    NO_PERSON_DETECTED,
+    UNAUTHORIZED_DEVICE,
+    SUSPICIOUS_MOTION,
+    IDENTITY_MISMATCH
+}

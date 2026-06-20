@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Proctoring POC</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="warning-banner" class="banner">
+        <span id="banner-message">Initializing...</span>
+    </div>
+
+    <div class="main-container">
+        <div class="camera-section">
+            <div id="camera-container">
+                <video id="video" autoplay playsinline></video>
+                <canvas id="canvas"></canvas>
+                <div id="overlay">
+                    <div class="overlay-item">Face Count: <span id="face-count">0</span></div>
+                    <div class="overlay-item">Match Score: <span id="match-score">N/A</span></div>
+                    <div class="overlay-item">Risk: <span id="risk-level">LOW</span></div>
+                    <div class="overlay-item">Status: <span id="verification-status">INIT</span></div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="capture-reference" class="btn">Capture Reference Face</button>
+                <span id="capture-status" class="status-text"></span>
+            </div>
+        </div>
+
+        <div class="side-panel">
+            <div class="lives-section">
+                <h2>Lives</h2>
+                <div id="hearts-container">
+                </div>
+            </div>
+            <div class="status-panel">
+                <h2>Status</h2>
+                <div class="status-item">Face Detected: <span id="face-detected">-</span></div>
+                <div class="status-item">Face Count: <span id="status-face-count">0</span></div>
+                <div class="status-item">Match Score: <span id="status-match-score">0</span></div>
+                <div class="status-item">Verification: <span id="status-verification">-</span></div>
+                <div class="status-item">Risk Score: <span id="risk-score">0</span></div>
+                <div class="status-item">Remaining Lives: <span id="remaining-lives">3</span></div>
+                <div class="status-item">Violation Count: <span id="violation-count">0</span></div>
+                <div class="status-item">Session: <span id="session-state">ACTIVE</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

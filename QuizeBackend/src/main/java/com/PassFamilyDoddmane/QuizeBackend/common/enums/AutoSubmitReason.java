@@ -1,0 +1,13 @@
+package com.PassFamilyDoddmane.QuizeBackend.common.enums;
+
+public enum AutoSubmitReason {
+    TIME_EXPIRED,
+    LIFE_LIMIT_EXCEEDED,
+    MULTIPLE_FACE_VIOLATION,
+    PHONE_DETECTED,
+    SUSPICIOUS_ACTIVITY,
+    TAB_SWITCH_VIOLATION,
+    FULLSCREEN_EXIT_VIOLATION,
+    PROCTORING_FAILURE,
+    MANUAL_ADMIN_INTERVENTION
+}
