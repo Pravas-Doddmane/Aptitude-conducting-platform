@@ -1,4 +1,4 @@
-# Aptitude exam conduction platform
+# Quiz App Complex Project
 
 An end-to-end aptitude exam conduction platform with separate backend, user frontend, admin frontend, and a Python proctoring service.
 
@@ -8,12 +8,6 @@ This repository contains four connected parts:
 - `quiz_project_user/` - student/user-facing React app for taking quizzes
 - `quiz_project_admin/` - admin React dashboard for managing the platform
 - `python-proctoring-poc/` - FastAPI-based proctoring proof of concept with face detection and identity verification
-
-## Platform Preview
-
-Here is a preview of the exam view interface during a quiz attempt:
-
-![Exam View](image_to_view_the_platform/exam_view.png)
 
 ## What the platform does
 
@@ -29,6 +23,10 @@ This project is built for aptitude exam conduction with support for:
 - identity verification
 - life-based violation handling
 - competition-mode exam monitoring
+
+### Platform Preview
+
+![Exam View](image_to_view_the_platform/exam_view.png)
 
 ## High-level architecture
 
