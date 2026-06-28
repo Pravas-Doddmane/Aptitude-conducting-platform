@@ -1,4 +1,4 @@
-# Quiz App Complex Project
+# Aptitude Conducting Platform
 
 An end-to-end aptitude exam conduction platform with separate backend, user frontend, admin frontend, and a Python proctoring service.
 
